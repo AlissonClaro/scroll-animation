@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scroll Animation - Website</title>
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <section>
+            <div class="main" id="main">
+                <h1 class="title" data-scroll data-scroll-speed="4" data-scroll-position="top"
+                    data-scroll-direction="horizontal">Scroll Animation</h1>
+
+                <h2 class="text" data-scroll data-scroll-speed="-2" data-scroll-position="top"
+                    data-scroll-direction="horizontal">Scroll Down to see the animation</h2>
+
+                <p class="text" data-scroll data-scroll-speed="2" data-scroll-position="top"
+                    data-scroll-direction="vertical">allclaro@live.com</p>
+            </div>
+        </section>
+
+        <section id="sectionPin">
+            <div class="pin-wrap">
+                <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nobis atque recusandae, tempora
+                    adipisci distinctio! Possimus nulla quaerat ullam impedit velit. Blanditiis dolores explicabo velit
+                    libero ipsum, rerum quas cumque?</h2>
+
+                    <img src="https://sujeitoprogramador.com/wp-content/uploads/2023/09/proj-4.png" alt="">
+                    <img src="https://sujeitoprogramador.com/wp-content/uploads/2023/09/proj-1.png" alt="">
+                    <img src="https://sujeitoprogramador.com/wp-content/uploads/2023/09/proj-3.png" alt="">
+            </div>
+        </section>
+
+        <div>
+            <div class="area">
+                <h1>TESTE AREA</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint sed temporibus delectus ipsum
+                    suscipit quod, quia assumenda esse non, dolor sit cumque distinctio dolores. Porro nemo eveniet
+                    officiis officia?
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <div class="area">
+                <h1>TESTE AREA</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint sed temporibus delectus ipsum
+                    suscipit quod, quia assumenda esse non, dolor sit cumque distinctio dolores. Porro nemo eveniet
+                    officiis officia?
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
