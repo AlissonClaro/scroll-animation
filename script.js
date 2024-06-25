@@ -24,8 +24,8 @@ const scroller = new LocomotiveScroll ({
         pinType: pageContainer.style.transform ? 'transform' : 'fixed'
     })
 
-    window.addEventListener('load', () => {
-        let pinWrap = document.querySelector('.pin-wrap')
+    window.addEventListener('load', function() {
+        let pinWrap = document.querySelector('pin-wrap')
         let pinWrapWidth = pinWrap.offsetWidth;
         let horizontalScrollLength = pinWrapWidth - window.innerWidth;
         
@@ -33,7 +33,7 @@ const scroller = new LocomotiveScroll ({
             ScrollTrigger: {
                 scroller: pageContainer,
                 scrub: true,
-                trigger: '.pin-wrap',
+                trigger: 'pin-wrap',
                 pin: true,
                 start: 'top top',
                 end: pinWrapWidth,
